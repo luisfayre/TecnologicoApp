@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "319888718748",
+    "firebase_url": "https://tecrankin.firebaseio.com",
+    "project_id": "tecrankin",
+    "storage_bucket": "tecrankin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319888718748:android:0e16af55b35bac05",
+        "android_client_info": {
+          "package_name": "com.example.angel.tecranck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319888718748-or7371jman48sbk61dueh8tlv031eb0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKYD5LP0EJLF6Vu9lDTQb3D1owAauTDHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319888718748:android:f467fd34a4511c23",
+        "android_client_info": {
+          "package_name": "com.coderefer.firebasedatabaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319888718748-or7371jman48sbk61dueh8tlv031eb0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKYD5LP0EJLF6Vu9lDTQb3D1owAauTDHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319888718748:android:ad468d47e050e02d",
+        "android_client_info": {
+          "package_name": "com.luisfayre.tecnologico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319888718748-4l99n923rgj4qulk9ufiapbshqch5vgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luisfayre.tecnologico",
+            "certificate_hash": "46a678a1860a20568b039f0557663e9b31c49c0a"
+          }
+        },
+        {
+          "client_id": "319888718748-or7371jman48sbk61dueh8tlv031eb0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKYD5LP0EJLF6Vu9lDTQb3D1owAauTDHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319888718748-or7371jman48sbk61dueh8tlv031eb0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
