@@ -18,7 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AjustesActivity" />
     </application>
 
 </manifest>

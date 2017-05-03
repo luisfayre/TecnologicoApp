@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">TecnologicoApp</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="adios">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir nabegador</string>
+    <string name="navigation_drawer_close">cerrar navegador</string>
+    <string name="fragemto1">Fragemto 1</string>
+    <string name="fragemto2">Fragmento 2</string>
+    <string name="titulo_fragemento_2">Fragmento 2</string>
+    <string name="titulo_fragemento_3">Fragmento 3</string>
+    <string name="titulo_fragemento_1">Fragmento 1</string>
+
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
+

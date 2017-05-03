@@ -9,21 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.luisfayre.tecnologico.RegisterActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:ems="10"
-            android:hint="Correo"
-            android:id="@+id/register_email"
-            android:layout_gravity="center_horizontal" />
 
         <EditText
             android:layout_width="match_parent"
@@ -32,16 +26,48 @@
             android:ems="10"
             android:hint="Contraseña"
             android:id="@+id/register_contraseña"
-            android:layout_gravity="center_horizontal" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="187dp" />
 
-        <Button
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
-            android:onClick="Registro"
-            android:id="@+id/button_register"
-            android:layout_gravity="center_horizontal" />
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Correo"
+            android:id="@+id/register_email"
+            android:layout_marginBottom="36dp"
+            android:layout_above="@+id/register_contraseña"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView3"
+                android:layout_row="0"
+                android:layout_column="0" />
+        </GridLayout>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:onClick="Registro"
+        android:id="@+id/button_register"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
