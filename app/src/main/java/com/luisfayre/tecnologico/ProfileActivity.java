@@ -1,8 +1,6 @@
 package com.luisfayre.tecnologico;
 
-import android.app.ActionBar;
 import android.content.Intent;
-import android.preference.PreferenceActivity;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -14,12 +12,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-import java.util.Map;
 
 public class ProfileActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
@@ -102,13 +97,19 @@ public class ProfileActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         Fragment fragmentoGenerico = null;
         FragmentManager fragmentManager = getSupportFragmentManager();
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);         //ToolBar
         int id = item.getItemId();
         if(id == R.id.prueba){
             fragmentoGenerico = new FragmentPrueba();
         }else if(id == R.id.settings){
             Intent intent = new Intent(getBaseContext(), AjustesActivity.class);
             startActivity(intent);
-        }else if(id == R.id.Home){
+        }else if(id == R.id.web_tec){
+            fragmentoGenerico = new FragmentoPagTec();
+            toolbar.setTitle("ITChihuahua II");
+        }else if(id == R.id.web_sii){
+            fragmentoGenerico = new FragmentoSII();
+            toolbar.setTitle("Sii");
 
         }
 

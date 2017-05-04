@@ -18,6 +18,14 @@
         android:id="@+id/menu_bottom"
         android:checkableBehavior="none">
         <item
+            android:id="@+id/web_sii"
+            android:icon="@drawable/ic_person_black"
+            android:title="SII"/>
+        <item
+            android:id="@+id/web_tec"
+            android:icon="@drawable/ic_http_black"
+            android:title="ITChihuahua II"/>
+        <item
             android:id="@+id/settings"
             android:icon="@drawable/ic_settings_24dp"
             android:title="Ajustes" >

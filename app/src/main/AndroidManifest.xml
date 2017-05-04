@@ -22,6 +22,8 @@
             android:name=".ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AjustesActivity" />
+        <activity android:name=".FragmentoSII"></activity>
+        <activity android:name=".FragmentoPagTec"></activity>
     </application>
 
 </manifest>
