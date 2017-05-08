@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Contacto">
+        <Preference
+            android:icon="@drawable/ic_help"
+            android:title="Enviar comentario"
+            android:id="@+id/enviarComentario" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -11,16 +11,41 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/colorPrimary</item>
         <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppThemeTecLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTecL</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTecL</item>
+        <item name="colorAccent">@color/colorAccentTecL</item>
+    </style>
+
+    <style name="AppThemeTec" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTec</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTec</item>
+        <item name="colorAccent">@color/colorAccentTec</item>
+    </style>
+
+    <style name="AppThemeTecSii" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimarySii</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSii</item>
+        <item name="colorAccent">@color/colorAccentTec</item>
+    </style>
+
+    <style name="AppThemeTecAjustes" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTecA</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTecA</item>
+        <item name="colorAccent">@color/colorAccentTecA</item>
     </style>
 
 </resources>

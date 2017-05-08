@@ -1,4 +1,4 @@
-package com.luisfayre.tecnologico;
+package com.luisfayre.tecnologico.Fragments;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,22 +13,21 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
+import com.luisfayre.tecnologico.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.luisfayre.tecnologico.R.string.titulo_tab_perfil;
-
 /**
  * Created by luisf on 29/04/2017.
  */
-public class FragmentPrueba extends Fragment {
+public class FragmentoPrincipal extends Fragment {
 
     private AppBarLayout appBar;
     private TabLayout pestanas;
     private ViewPager viewPager;
 
-    public FragmentPrueba() {
+    public FragmentoPrincipal() {
     }
 
     @Override
@@ -58,9 +57,9 @@ public class FragmentPrueba extends Fragment {
 
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
-        adapter.addFragment(new FragmentoPerfil(), getString(titulo_tab_perfil));
-         adapter.addFragment(new Fragmentodos(), getString(R.string.titulo_tab_direcciones));
-        adapter.addFragment(new Fragmentotres(), getString(R.string.titulo_tab_tarjetas));
+        adapter.addFragment(new FragmentoPerfil(), getString(R.string.titulo_tab_perfil));
+        adapter.addFragment(new FragmentoProfesores(), getString(R.string.titulo_tab_profesor));
+        adapter.addFragment(new FragmentoMaterias(), getString(R.string.titulo_tab_materias));
         viewPager.setAdapter(adapter);
     }
 

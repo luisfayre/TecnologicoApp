@@ -1,4 +1,4 @@
-package com.luisfayre.tecnologico;
+package com.luisfayre.tecnologico.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.luisfayre.tecnologico.R;
 
 public class FragmentoSII extends Fragment {
 
@@ -21,7 +23,7 @@ public class FragmentoSII extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.prueba_web, container, false);
+        View v=inflater.inflate(R.layout.paguina_web, container, false);
 
 
         webView = (WebView) v.findViewById(R.id.paguina);

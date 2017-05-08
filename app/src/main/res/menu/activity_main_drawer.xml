@@ -5,30 +5,34 @@
         android:id="@+id/menu_top"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/Home"
-            android:icon="@drawable/ic_home_black"
-            android:title="Inicio"/>
-        <item
             android:id="@+id/prueba"
             android:icon="@drawable/ic_home_black"
-            android:title="Prueba"/>
+            android:title="Inicio" />
     </group>
 
-    <group
-        android:id="@+id/menu_bottom"
-        android:checkableBehavior="none">
+    <group android:id="@+id/menu_bottom">
         <item
             android:id="@+id/web_sii"
             android:icon="@drawable/ic_person_black"
-            android:title="SII"/>
+            android:title="SII" />
         <item
             android:id="@+id/web_tec"
             android:icon="@drawable/ic_http_black"
-            android:title="ITChihuahua II"/>
+            android:title="ITChihuahua II" />
+        <item
+            android:id="@+id/mapaTec"
+            android:icon="@drawable/ic_place_24dp"
+            android:title="Mapa"/>
+    </group>
+
+    <group android:id="@+id/menu_donw">
         <item
             android:id="@+id/settings"
             android:icon="@drawable/ic_settings_24dp"
-            android:title="Ajustes" >
-        </item>
+            android:title="Ajustes"/>
+        <item
+            android:id="@+id/ayudaycomentarioos"
+            android:icon="@drawable/ic_help"
+            android:title="Ayuda y comentarios"/>
     </group>
 </menu>

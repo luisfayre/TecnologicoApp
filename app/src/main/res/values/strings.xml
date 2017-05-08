@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TecnologicoApp</string>
+    <string name="app_name">ITCHII</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="adios">Close navigation drawer</string>
     <string name="navigation_drawer_open">Abrir nabegador</string>
@@ -12,8 +12,27 @@
 
 
     <string name="titulo_tab_perfil">PERFIL</string>
-    <string name="titulo_tab_direcciones">DIRECCIONES</string>
-    <string name="titulo_tab_tarjetas">TARJETAS</string>
+    <string name="titulo_tab_materias">MATERIAS</string>
+    <string name="titulo_tab_profesor">PROFESORES</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps">Map</string>
+
+
+
+    Ajuster
+    <string name="pref_default_correoelectronico">correo</string>
+    <string name="user_email">correo@ejemplo.com</string>
+    <string name="user_name">Usuario</string>
+    <string name="preinscripcion_notificacion">Notificación  de preinscripción</string>
+    <string name="preinscripcion_notificacion_recomendacion">Te recomendamos activar esta notificación para que te avise cuando empieza la preinscripción</string>
+
+
+
+    Registro
+    <string name="ingrese_correo">Ingrese su correo electrónico</string>
+    <string name="ingrese_usuario">Ingrese su usuario</string>
+    <string name="ingrese_contrasena">Ingrese su contraseña</string>
+    <string name="ingrese_repetir_contrasena">Confirme su contraseña</string>
+    <string name="no_coinciden">Las contraseñas no coinciden</string>
 </resources>
 

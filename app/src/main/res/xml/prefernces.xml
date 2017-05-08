@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory
-        android:title="FOO">
+    <PreferenceCategory android:title="Ajustes principales">
 
-        <CheckBoxPreference
-            android:key="checkBoxPref"
-            android:title="Fondo uno"
-            android:id="@+id/fondoimagen"
-            android:summary="Fondo Imagen"/>
 
-        <CheckBoxPreference
-            android:key="checkBoxPref"
-            android:title="Fondo dos"
-            android:id="@+id/fondocolor"
-            android:summary="Fondo color"/>
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/user_name"
+            android:inputType="text"
+            android:key="nombreUsuario"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:summary="@string/user_name"
+            android:title="Nombre de usuario" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/user_email"
+            android:inputType="textEmailAddress"
+            android:key="correoElectronico"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/user_email"
+            android:title="Correo electronico" />
+
+        <Preference android:title="Cambiar contraseña"></Preference>
 
     </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Notificaciones">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="mostrarNotificaciones"
+            android:summary="@string/preinscripcion_notificacion_recomendacion"
+            android:title="@string/preinscripcion_notificacion" />
+
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
